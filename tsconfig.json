@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs", 
+    // "types": ["playdate-types"],
+    "outDir": "./dist/", 
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "tstl":{
+    "luaTarget": "5.3",
+		"luaPlugins": [{ "name": "./plugin/playdate-plugin.ts" }],
+		"luaBundle": "./main.lua",
+		"luaBundleEntry": "./src/main.ts"
+  },
+  "exclude": ["./plugin/*"]
+}

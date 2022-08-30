@@ -1,0 +1,6 @@
+name=game name
+author=my name
+description=this is a game
+bundleID=com.COMPANY.game
+version=1.0
+imagePath=assets/images/
