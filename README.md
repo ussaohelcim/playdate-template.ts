@@ -8,4 +8,6 @@ Simple template to create Playdate games using Typescript.
 - `npm run build`
 	- this command will transpile your game into lua and add to a `dist/` folder, copy your `src/assets/` folder into `dist/assets`, and also compile your game with `pdc` at `dist.pdx`
 
-More info here: https://devforum.play.date/t/playdate-sdk-with-typescript/369/15
+More info here: https://devforum.play.date/t/playdate-sdk-with-typescript/369/
+
+See the issues befores you start something.
