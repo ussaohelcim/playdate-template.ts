@@ -1,15 +1,23 @@
 {
-  "name": "gamets",
+  "name": "playdate-template.ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple template to create Playdate games using Typescript.",
   "scripts": {
     "build": "npm run clear && tstl && npm run copy && pdc dist",
     "clear": "ts-node ./plugin/clear.ts",
     "copy": "ts-node ./plugin/copy.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ussaohelcim/playdate-template.ts.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ussaohelcim/playdate-template.ts/issues"
+  },
+  "homepage": "https://github.com/ussaohelcim/playdate-template.ts#readme",
   "dependencies": {
     "playdate-types": "github:ussaohelcim/playdate-types",
     "ts-node": "^10.9.1",
